@@ -96,6 +96,21 @@ public class MainActivity extends AppCompatActivity {
     public void launchNextActivity(View view){
         // create an intent and you need to specify from and to
         Intent intent = new Intent(this, SecondActivity.class);
+
+        // date field
+        // intent extras --> Celia's choice
+        // both can pack data and send to the targeted activity
+
+        // intent extras:
+        // key/value pairs in a Bundle
+
+        // want to pass the count number through intent to second activity
+        // and display in a second activity
+        // ex: 5 was passed.
+
+        String message = textView_count.getText().toString();
+        intent.putExtra("count", message);
+
         startActivity(intent);
     }
 }
