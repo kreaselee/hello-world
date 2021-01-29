@@ -8,5 +8,8 @@
     <string name="textView_count">0</string>
 
     <string name="second_activity">Second Activity</string>
+    <string name="third_activity">Third Activity</string>
     <string name="button_goBack">Go back</string>
+    <string name="button_goNext">Go next</string>
+
 </resources>
